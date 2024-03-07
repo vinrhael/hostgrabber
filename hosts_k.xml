@@ -136,7 +136,7 @@
 	<path-pattern>photos/[^/]+/\d+/in/(dateposted|album-[^/]+|faves-[^/]+)/</path-pattern>
 	<interceptor>replace: 'in/(dateposted|album-[^/]+|faves-[^/]+)/', 'sizes/k'</interceptor>
 	<link-search-pattern>xpath: //div[@id='allsizes-photo']/img</link-search-pattern>
-	<link-attribute>href</link-attribute>
+	<link-attribute>src</link-attribute>
 </host>
 
 <host id="hotcelebshome">
