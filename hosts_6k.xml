@@ -135,6 +135,7 @@
 	<domain-pattern>flickr.com</domain-pattern>
 	<path-pattern>photos/[^/]+/\d+/in/(dateposted|album-[^/]+|faves-[^/]+)/</path-pattern>
 	<interceptor>replace: 'in/(dateposted|album-[^/]+|faves-[^/]+)/', 'sizes/6k'</interceptor>
+	<interceptor>replace: 'in/(dateposted|album-[^/]+|faves-[^/]+)/', 'sizes/5k'</interceptor>
 	<link-search-pattern>xpath: //div[@id='allsizes-photo']/img</link-search-pattern>
 	<link-attribute>src</link-attribute>
 </host>
