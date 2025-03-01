@@ -137,7 +137,6 @@
 	<interceptor>replace: 'in/(dateposted|album-[^/]+|faves-[^/]+)/', 'sizes/6k'</interceptor>	
 	<link-search-pattern>xpath: //div[@id='allsizes-photo']/img</link-search-pattern>
 	<interceptor>replace: 'in/(dateposted|album-[^/]+|faves-[^/]+)/', 'sizes/5k'</interceptor>
-	<interceptor>replace: 'in/(dateposted|album-[^/]+|faves-[^/]+)/', 'sizes/4k'</interceptor>
 	<link-attribute>src</link-attribute>
 </host>
 
